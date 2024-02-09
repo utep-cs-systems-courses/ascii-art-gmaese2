@@ -34,7 +34,6 @@ void print_arrow(int leftCol, int size)
     for (       ; col <= maxCol; col++) putchar('*');
     putchar('\n');
   }
-}
 for (int i = 0; i < 5; i++){
   printf("          ");
   for (int j = 0; j < 5; j++){
